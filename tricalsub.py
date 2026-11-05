@@ -1,0 +1,30 @@
+print('Put X1 ')
+x =  input()
+print('Put y1')
+y=  input()
+print('Put z1')
+z =  input()
+print('Put r1')
+r =  input()
+
+print('Put x2 ')
+x2 =  input()
+print('Put y2')
+y2=  input()
+print('Put z2')
+z2 =  input()
+print('Put r2')
+r2 =  input()
+
+
+xcal = int(x) - int(x2)
+ycal = int(y) - int(y2)
+zcal = int(z) - int(z2)
+rcal = int(r) - int(r2)
+
+print ('xvalue' ,xcal )
+print ('yvalue' ,ycal )
+print ('zvalue' ,zcal )
+print ('zvalue' ,rcal )
+
+exit =  input()
